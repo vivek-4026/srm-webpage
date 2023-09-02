@@ -1,0 +1,55 @@
+/* .top-container{
+  background-image: url(../images/computer-blue-neon-backlight-data-center-Server.jpg);
+  height: 700px;
+  padding: 10px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+@media (max-width: 768px) {
+  /* Apply styles for screens with a maximum width of 768px or smaller */
+  .top-container {
+    height: 400px; /* Adjust the height for smaller screens */
+  }
+}
+
+.top-container {
+  background-image: url(../images/computer-blue-neon-backlight-data-center-Server.jpg);
+  background-size: cover; /* Ensures the image covers the container */
+  background-repeat: no-repeat; /* Prevents repeating the image */
+  background-position: center center; /* Centers the image horizontally and vertically */
+  height: 700px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-heading{
+  color: white;
+  font-family:"Butler", Sans-serif;
+  font-size: 64px;
+  text-align: center;
+}
+.upper-main-heading{
+  color: white;
+  font-family:"Butler", Sans-serif;
+  text-align: center;
+}
+.lower-main-heading{
+  color: white;
+  font-family:"Butler", Sans-serif;
+  text-align: center;
+}
+.top-title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
