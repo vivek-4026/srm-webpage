@@ -34,26 +34,12 @@
   font-family:"Butler", Sans-serif;
   text-align: center;
 }
-.top-title {
+.top-title{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-}
-
-@media (max-width: 768px) {
-  /* Apply styles for screens with a maximum width of 768px or smaller */
-  .top-title {
-    font-size: 24px; /* Adjust font size for smaller screens */
-  }
-}
-
-@media (min-width: 769px) and (max-width: 1200px) {
-  /* Apply styles for screens with a width between 769px and 1200px */
-  .top-title {
-    font-size: 36px; /* Adjust font size for medium-sized screens */
-  }
 }
 
 .body{
